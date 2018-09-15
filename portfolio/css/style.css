@@ -1,0 +1,526 @@
+/* fade animation */
+.fade {
+  animation-name: displayFade;
+  animation-duration:4s;
+}
+
+@keyframes displayFade {
+  0%{opacity:0}
+  100%{opacity:1}
+}
+
+.hide {
+  display: none;
+}
+
+/* general content */
+body {
+  text-align: left;
+  overflow-x: hidden;
+}
+
+.maincontent {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.content {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* main content */
+.intro {
+  padding-top: 25%;
+}
+
+.intro ul {
+  margin-top: 6%;
+}
+
+.intro li {
+  width: 80%;
+}
+
+.static {
+  display: none;
+}
+
+.overview-content .column {
+  width: 32%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.overview-content .column p {
+  font-size: 1em;
+}
+
+/* general typography */
+h1 {
+  font-family: 'Muli', sans-serif;
+  font-size: 7em;
+  font-weight: bold;
+  letter-spacing: 0.01em;
+  line-height: 1.3em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 10%;
+  color: black;
+}
+
+#title {
+  margin-top: 19%;
+  padding-left: 5%;
+  position: absolute;
+  z-index: -1;
+}
+
+#title h1 {
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 3em;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  margin-bottom: 1%;
+  color:  black;
+}
+
+h2 {
+  font-family:'Muli', sans-serif;
+  font-size: 1.7em;
+  font-weight:bold;
+  line-height: 1.7em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+}
+
+
+h3 {
+  font-family:'Proxima Nova', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.4em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0;
+  color: #AAA9A9;
+}
+
+#title h3 {
+  font-family: 'Robotothin', sans-serif;
+  margin: 0;
+  font-size: 2em;
+  font-weight: lighter;
+  letter-spacing: 0.15em;
+}
+
+h4 {
+  font-family:'Proxima Nova', sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 1em;
+  color: #AAA9A9;
+  font-size: 0.75em;
+  display: block;
+  margin-left:2%;
+}
+
+
+h5 {
+  font-family: 'Robotothin', sans-serif;
+  font-weight: lighter;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+p {
+  color:  #AAA9A9;
+  font-size: 2em;
+  font-family: 'Proxima Nova', sans-serif;
+  line-height: 1.6em;
+}
+
+/* lists */
+ul {
+  padding-left: 0;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul li {
+  list-style: none;
+  color:  #494646;
+  font-size: 1.70em;
+  font-family: 'Proxima Nova', sans-serif;
+  letter-spacing: 0;
+  margin-left: 0;
+  width: 100%;
+  margin-bottom: 3.5%;
+}
+
+.heading {
+  font-family:'Proxima Nova', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #AAA9A9;
+  display: block;
+}
+
+ul li, .heading {
+  display: inline-block;
+}
+
+/* navigation */
+.nav {
+  display: none;
+}
+
+#toggle {
+  display: inline-block;
+  float: right;
+  margin-top: 8%;
+  padding-left: 85%;
+  padding-right: 5%;
+  color: black;
+  z-index: 3;
+  position: absolute;
+}
+
+/* overlay dropdown menu */
+#overlay {
+  overflow: hidden;
+  /* complete liquid height based on the parent's height!! */
+  position: absolute;
+  opacity: 0.95;
+  z-index: 2;
+  top: 0;
+    height:100%;
+    width: 100%;
+    background-color: black;
+    /* only transition on transform properties which are hardware accelerated = way better performances */
+  -webkit-transition:-webkit-transform .3s ease;
+       -moz-transition:   -moz-transform .3s ease;
+        -ms-transition:    -ms-transform .3s ease;
+            transition:        transform .3s ease;
+}
+
+#overlay ul {
+  padding-top: 25%;
+  padding-left: 7%;
+}
+
+#overlay li {
+  font-family: 'Muli';
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  font-size: 8em;
+  color: white;
+  line-height: 1.2em;
+}
+
+#overlay li:hover {
+  color: lightBlue;
+}
+
+.slider.opened {
+  /* completely offscreen */
+  -webkit-transform: translate(0, -100%);
+     -moz-transform: translate(0, -100%);
+      -ms-transform: translate(0, -100%);
+          transform: translate(0, -100%);
+}
+
+.slider.closed {
+  /* visible */
+  -webkit-transform: translate(0, 0%);
+     -moz-transform: translate(0, 0%);
+      -ms-transform: translate(0, 0%);
+          transform: translate(0, 0%);
+}
+
+/* index gallery navigation */
+#gallery {
+  padding-top: 35%;
+  width: 101%;
+}
+
+#gallery img {
+  margin: 0;
+  padding: 0;
+  width: 49%;
+}
+
+#s2, #h2, #vis2, #i2 {
+  display: none;
+}
+
+.col img {
+  display: inline-block;
+}
+
+/* general image styles */
+img {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.intro-img {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+/* icons */
+.icon {
+  width: 55px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+/* about page styles */
+#about-intro {
+  padding-top: 115%;
+}
+
+#about-intro h1 {
+  margin-bottom: 2%;
+}
+
+#about-intro .rule {
+  width: 10em;
+  height: 15px;
+}
+
+#about-intro p {
+  font-size: 2.5em;
+}
+
+#about-intro li {
+  font-size: 2.5em;
+}
+
+#contact {
+  margin-bottom: 5%;
+}
+
+#about-intro ul li {
+  padding: 0;
+  color: #AAA9A9;
+  line-height: 2em;
+}
+
+/* about page images & icons */
+#selfPortrait {
+  width: 60%;
+  margin-top: 25%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  position: absolute;
+  top: 0;
+}
+
+#about-intro ul .icon {
+  padding-bottom: 10px;
+  width: 6%;
+  margin: 0;
+  margin-right: 2%;
+}
+
+#about-intro ul li, #about-intro .icon {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+#contact {
+  margin-top: 2%;
+}
+
+#contact li {
+  margin-bottom: 1.5%;
+  width: 47%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#about-intro #contact .icon {
+  width: 13%;
+  padding-right: 2%;
+}
+
+/* art page styles */
+#art-intro {
+    position: absolute;
+    z-index:1;
+    padding-top: 23%;
+    padding-left: 3%;
+}
+
+/* art page images */
+.art-gallery img {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-bottom: 3%;
+}
+
+#img-1 {
+  padding-top: 55%;
+  margin-left: 6%;
+}
+
+#portrait {
+  padding-top: 40%;
+}
+
+#sam {
+  width: 85%;
+  padding-right: 35%;
+  margin-left: 0;
+}
+
+/* homestead page styles */
+#homestead-1 {
+  width: 65%;
+  margin-left: 12%;
+}
+
+/* ignite page styles */
+#ig-intro ul li {
+  width: 100%;
+}
+
+#webFlow {
+  width: 100%;
+}
+
+/* medium images */
+#medium-1 {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+/* poster page styles */
+#post-intro {
+  padding-top: 18%;
+}
+
+/* sierra page styles */
+
+/* sierra images */
+.logo-img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5%;
+  width: 49%;
+}
+
+.final-logo {
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+/* rules */
+.divider {
+  border: lightgrey;
+  background-color:lightgrey;
+  width: 100%;
+  height:1px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: block;
+}
+
+.rule {
+  width: 6em;
+  height: 8px;
+  border: lightBlue;
+  left: 0;
+  margin-top: 3%;
+  margin-left: 0;
+  background-color:lightBlue;
+  margin-bottom: 8%;
+}
+
+.content-2 .rule {
+  margin-bottom: 10%;
+}
+
+.dash {
+  display: none;
+}
+
+.intro ul li, .dash {
+  display: inline-block;
+}
+
+/* visualizer page styles */
+#vis-research .rule {
+  margin-left: 0;
+}
+
+/* visualizer images */
+#visualizer-1 {
+  margin-top: 0;
+  width: 100%;
+  margin-right: 5%;
+}
+
+.visgif, #final-des {
+  box-shadow: 2px 2px 30px 2px #D8D8D8;
+}
+
+/* icons */
+#about-intro li, #about-intro .icon {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+
+.icon {
+  width: 55px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+#about-intro .icon {
+  width: 6%;
+  margin: 0;
+  margin-right: 2%;
+}
+
+/* links */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: grey;
+}
+
+a:visited {
+  color: #494646;
+}
+
+a:hover {
+  color: lightBlue;
+}
+
+a:active {
+  color: #494646;
+}
+
+/* footer */
+footer {
+  padding-bottom: 5%;
+  padding-top: 5%;
+  text-align: center;
+  position: static;
+  bottom: 0;
+}

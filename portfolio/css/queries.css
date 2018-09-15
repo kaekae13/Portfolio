@@ -1,0 +1,760 @@
+/* Desktop View ----------- */
+@media only screen and (max-width : 991px) {
+  .lb-overlay {
+    display: none;
+  }
+
+  .graphic-identity {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/* Desktop View ----------- */
+@media only screen and (min-width : 992px) {
+/* Styles */
+
+/* general typography */
+h1 {
+  font-size: 3em;
+}
+
+#title {
+  margin-top: 3%;
+  padding-left: 10%;
+  position: absolute;
+  z-index: -1;
+}
+
+#ig-intro h1 {
+  font-size: 4em;
+}
+
+#title h1 {
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  margin-bottom: 2%;
+  color:  black;
+}
+
+h2 {
+  color: black;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.content h2 {
+  margin-bottom: 1.7%;
+  font-weight: bold;
+}
+
+.content p {
+  margin-bottom: 7%;
+}
+
+h3 {
+  font-size: 0.85em;
+  line-height: 1.3em;
+}
+
+#title h3 {
+  font-size: 0.75em;
+}
+
+h5 {
+  font-size: 0.75em;
+}
+
+p {
+  font-size: 0.75em;
+}
+
+/* general content */
+.maincontent {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.intro {
+  padding-bottom: 25%;
+  padding-top: 15%;
+  margin-top: 10%;
+  width: 50%;
+}
+
+.intro, .intro-img {
+  display: inline-block;
+}
+
+.intro-img {
+  position: absolute;
+  z-index: -1;
+  float: right;
+}
+
+.overview-content {
+  width: 100%;
+}
+
+.overview-content h2 {
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.overview-content p {
+  font-size: 0.70em;
+  padding-top:0;
+  margin-bottom: 0;
+}
+
+.overview-content .column p, .overview-content .column h5 {
+  font-size: 0.65em;
+}
+
+.content .column {
+  margin-top: 10%;
+  display: inline-block;
+  vertical-align: top;
+  width: 32%;
+}
+
+.content {
+  margin-top: 17%;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-bottom: 17%;
+}
+
+.content-2 {
+  width: 100%;
+  margin-top: 17%;
+  margin-bottom: 10%;
+}
+
+.content-2 h2 {
+  margin-bottom: 2%;
+}
+
+.content-2 p {
+  width: 50%;
+  padding-bottom: 0;
+}
+
+/* Navigation */
+#toggle {
+  display: none;
+}
+
+.nav {
+  display: block;
+}
+
+#nav1 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 0.3em;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  font-weight: 700;
+  padding-top: 3%;
+  padding-right: 10%;
+}
+
+#nav2 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 0.3em;
+  position: fixed;
+  left: 0;
+  font-weight: bolder;
+  margin-top: 33%;
+  height: 3%;
+  transform: rotate(-90deg);
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#nav1 a, #nav1 a {
+  text-decoration: none;
+}
+
+/* index gallery navigation */
+#gallery {
+  width: 70%;
+  margin-left: 23%;
+  margin-right: 10%;
+  padding-top: 12%;
+  margin-bottom: 5%;
+}
+
+#gallery img:hover {
+  animation: slideContentUp 1.5s;
+}
+
+@keyframes slideContentUp {
+	from { transform: translateY(10px); }
+	to { transform: translateY(0px); }
+}
+
+.col img {
+  display: block;
+}
+
+.col #s2 {
+  width: 100%;
+  margin-bottom: 10%;
+  margin-right: 0;
+}
+
+.col #m1 {
+  width: 75%;
+  padding-left: 25%;
+  margin-right: 0;
+}
+
+.col #s2, .col #m1 {
+  display: block;
+  margin-right: 0;
+}
+
+.col #i2 {
+  width: 75%;
+  margin-bottom: 9%;
+  display: block;
+}
+
+.col #vis2 {
+  width: 100%;
+  display: block;
+}
+
+.col #h2 {
+  width: 85%;
+  padding-left: 7%;
+  margin:0;
+  display: block;
+}
+
+#Col1, #Col2, #Col3 {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0;
+}
+
+#Col2 {
+  width: 30%;
+}
+
+#Col1, #Col3 {
+  width: 25%;
+}
+
+#s1, #vis1, #p1, #h1, #i1 {
+  display: none;
+}
+
+/* list styles */
+ul li {
+  font-size: 0.75em;
+  width: 100%;
+  line-height: 1.5em;
+}
+
+.intro ul {
+  font-size: 0.75em;
+  margin-top: 10%;
+}
+
+/* rule styles */
+.dash {
+  border: #AAA9A9;
+  background-color:#AAA9A9;
+  width: 2em;
+  height:1px;
+  margin-right: 2%;
+}
+
+.rule {
+  width: 3em;
+  height: 5px;
+  border: lightBlue;
+  left: 0;
+  margin-left: 0;
+  background-color:lightBlue;
+  margin-bottom: 8%;
+}
+
+.content-2 .rule {
+  width: 5em;
+  height: 6px;
+}
+
+.intro li, .dash {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* general images */
+.content img {
+  width: 100%;
+}
+
+.content .logo-img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5%;
+  width: 49%;
+}
+
+.img-col img {
+  display: block;
+}
+
+/* homestead page styles */
+#home-intro ul {
+  margin-left: 10%;
+}
+
+/* homestead images */
+#homestead-1 {
+  padding-top: 5%;
+  width: 27%;
+  margin-left: 0;
+}
+
+#final-des {
+  width: 85%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-top: 10%;
+}
+
+/* ignite page styles */
+#ig-intro ul {
+  margin-left: 10%;
+  width: 100%;
+}
+
+#ig-intro ul li {
+  width: 90%;
+}
+
+/* ignite images */
+#ig-1 {
+  width: 40%;
+  right: 0;
+  margin-right: 17.5%;
+  margin-top: 13%;
+}
+
+#ig-logo-1 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#webFlow {
+  width: 100%;
+}
+
+#web img {
+  display: inline-block;
+}
+
+#website {
+  width: 66.5%;
+  padding-right: 1.5%;
+}
+
+#snapchat {
+  width: 28.5%;
+}
+
+/* medium images */
+#medium-1 {
+  width: 25%;
+  top: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 28%;
+  margin-top: 10%;
+}
+
+#medium-scrn {
+  width: 100%;
+  margin-top: 10%;
+}
+
+/* poster page styles */
+#post-intro {
+  padding-top: 5%;
+  position: absolute;
+}
+
+#post-intro h1 {
+  font-size: 3em;
+}
+
+/* poster images */
+#poster-1 {
+  margin-top: 15%;
+}
+
+.poster {
+  width: 70%;
+  padding-left: 30%;
+}
+
+/* sierra images */
+#sierra-1 {
+  width: 33%;
+  float: right;
+  right: 0;
+  padding-top: 12%;
+  margin-right: 17.5%;
+}
+
+.content .final-logo {
+  width: 65%;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.final-logo, #logo-variation {
+  vertical-align: middle;
+}
+
+#logo-variation {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.graphic-identity {
+  margin-top: 0;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#graphic {
+  width: 75%;
+  margin-top: 7%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+#busi-card, #proposal {
+  margin-right: 0;
+}
+
+#busi-card {
+  width: 60%;
+  margin-top: 10%;
+}
+
+#proposal {
+  width: 40%;
+  margin-top: 55%;
+  float: right;
+}
+
+#busi-sys {
+  width: 50%;
+  margin-left: 10%;
+  padding-top: 24%;
+}
+
+/* visualizer page styles */
+#vis-intro h1 {
+  font-weight: bold;
+  font-size: 2.8em;
+}
+
+#vis-research .rule {
+  margin-left: 17%;
+}
+
+#vis-research h2 {
+  left: 0;
+  text-align: right;
+  width: 25%;
+}
+
+#vis-research p {
+  width: 75%;
+  margin-left: 25%;
+}
+
+/* visualizer images */
+#visualizer-1 {
+  width: 40%;
+  right: 0;
+  padding-top: 10%;
+  padding-right: 10.5%;
+}
+
+#mobile-wire {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+#vis-research img {
+  width: 75%;
+  margin-left: 25%;
+}
+
+/* about page styles */
+#about-intro {
+  margin-left: 17.5%;
+  top: 0;
+  padding-top: 0;
+}
+
+#about-intro h1 {
+  font-size: 2em;
+  padding-top: 15%;
+  left: 0;
+  margin-left: 8%;
+  margin-bottom: 0;
+}
+
+#about-intro p {
+  font-size: 0.70em;
+  padding-top: 0;
+  width: 45%;
+  margin-left: 8%;
+}
+
+#about-intro li {
+  font-size: 0.70em;
+  line-height: 0.70em;
+  margin-bottom: 0;
+  margin-left: 12%;
+}
+
+#about-intro .rule {
+  margin-left: 8%;
+  width: 2em;
+  height: 5px;
+}
+
+#about-intro .icon, #about-intro li {
+  vertical-align: middle;
+}
+
+#about-intro, #selfPortrait {
+  display: inline-block;
+}
+
+#contact {
+  margin-left: 10%;
+}
+
+#contact li {
+  width: 20%;
+  margin-left: 0;
+  line-height: 1.3em;
+}
+
+/* about page images */
+#selfPortrait {
+  width: 25%;
+  margin-top: 8%;
+  top: 0;
+  right: 0;
+  margin-left: 0;
+  margin-right: 17.5%;
+  position: absolute;
+}
+
+#about-intro .icon {
+  width: 20px;
+  margin-right: 10px;
+  padding: 0;
+}
+
+#about-intro #contact .icon {
+  width: 15px;
+  padding: 0;
+}
+/* art page styles */
+#art-intro {
+  padding-left: 17.5%;
+  padding-top: 10%;
+  left: 0;
+}
+
+#art-intro h1 {
+  font-size: 3em;
+  text-align: right;
+}
+
+#art-intro h3 {
+  font-size: 0.75em;
+  text-align: right;
+  line-height: 1.5em;
+}
+
+#about-intro .rule {
+  width: 5.5em;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  height: 5px;
+}
+
+.art-gallery {
+  padding-left: 20%;
+  top: 0;
+  padding-top: 15%;
+  width: 100%;
+}
+
+.art-gallery img:hover {
+  opacity: 0.7;
+}
+
+.col {
+  margin-right: 3%;
+}
+
+.col img {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 4%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col {
+  display: inline-block;
+  vertical-align: middle;
+  width: 15%;
+}
+
+/* art gallery images */
+#col-1 {
+  width: 15%;
+}
+
+#col-2, #col-5 {
+  width: 18%;
+}
+
+#col-3 {
+  padding-bottom: 5%;
+}
+
+.col img {
+  width: 100%;
+}
+
+/* lightbox-gallery */
+.lb-overlay:target img {
+	animation: fadeInScale 1.2s ease-in-out;
+}
+
+@keyframes fadeInScale {
+  0% { transform: scale(0.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+
+.lb-overlay{
+	width: 0px;
+	height: 0px;
+	position: fixed;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	padding: 0px;
+	z-index: 99;
+	text-align: center;
+  background:
+    radial-gradient(
+      center,
+      ellipse cover,
+      rgba(255,255,255,0.56) 0%,
+      rgba(241,210,194,1) 100%
+    );
+  transition: opacity 0.3s linear;
+}
+
+.col .lb-overlay img{
+  max-width: auto;
+  max-height: 75%;
+  margin: 0 auto;
+  top: 5%;
+  justify-content: center;
+  max-width: 35%;
+  position: relative;
+	opacity: 0;
+	transition: opacity 0.5s linear;
+}
+
+.col .lb-overlay:target #image-6a {
+  max-width: 55%;
+}
+
+.lb-overlay:target {
+	width: 100%;
+	height: 100%;
+  background-color:rgba(255,255,255,0.56);
+  transition: background-color 1.2s ease;
+	bottom: 0px;
+	right: 0px;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.lb-overlay a.lb-close{
+	z-index: 1001;
+	color: black;
+	position: absolute;
+	top: 50px;
+	font-size: 70px;
+	padding-left: 18%;
+	opacity: 0;
+  transition: opacity 1.3s linear;
+}
+
+#close-1 {
+  padding-left: 28%;
+}
+
+.lb-overlay:target img,
+.lb-overlay:target a.lb-close{
+	opacity: 1;
+}
+
+/* footer */
+footer {
+  padding-bottom: 3%;
+  padding-top: 7%;
+  margin-left: 35%;
+  margin-right: 35%;
+  bottom: 0;
+  width: 30%;
+  text-align: center;
+}
+
+.icon {
+  width: 18px;
+  display: inline-block;
+  margin-right: 5px;
+}
+}
+
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+}
