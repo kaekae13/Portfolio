@@ -568,6 +568,10 @@ ul li {
   vertical-align: middle;
 }
 
+#about-intro #contact li .icon {
+  width: 20px;
+}
+
 /* about page images */
 #selfPortrait {
   width: 25%;
