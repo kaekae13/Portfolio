@@ -327,7 +327,6 @@ img {
 
 #about-intro ul .icon {
   padding-bottom: 10px;
-  width: 6%;
   margin: 0;
   margin-right: 2%;
 }
@@ -493,7 +492,7 @@ img {
 }
 
 #about-intro .icon {
-  width: 15px;
+  width: 40px;
   margin: 0;
   margin-right: 2%;
 }
