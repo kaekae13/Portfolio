@@ -569,6 +569,7 @@ ul li {
 
 #contact {
   margin-left: 10%;
+  margin-top: 0;
 }
 
 #contact li {
@@ -580,7 +581,7 @@ ul li {
 }
 
 #about-intro #contact li .icon {
-  width: 20px;
+  width: 15px;
   margin-right: 2%;
 }
 
