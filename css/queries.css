@@ -540,9 +540,9 @@ ul li {
 }
 
 #about-intro p {
-  font-size: 0.70em;
+  font-size: 0.68em;
   padding-top: 0;
-  width: 45%;
+  width: 47%;
   margin-left: 8%;
 }
 
@@ -588,7 +588,7 @@ ul li {
 /* about page images */
 #selfPortrait {
   width: 25%;
-  margin-top: 8%;
+  margin-top: 10%;
   top: 0;
   right: 0;
   margin-left: 0;
