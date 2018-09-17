@@ -1,5 +1,6 @@
-/* Desktop View ----------- */
-@media only screen and (max-width : 991px) {
+
+/* iPad & Smaller Screens ----------- */
+@media only screen and (max-width : 767px) {
   .lb-overlay {
     display: none;
   }
@@ -11,13 +12,14 @@
   }
 }
 
-/* Desktop View ----------- */
-@media only screen and (min-width : 992px) {
+/* iPad & Desktop ----------- */
+@media only screen and (min-width : 768px) {
 /* Styles */
 
 /* general typography */
 h1 {
   font-size: 3em;
+  margin-bottom: 0;
 }
 
 #title {
@@ -25,10 +27,6 @@ h1 {
   padding-left: 10%;
   position: absolute;
   z-index: -1;
-}
-
-#ig-intro h1 {
-  font-size: 4em;
 }
 
 #title h1 {
@@ -82,7 +80,7 @@ p {
   padding-bottom: 25%;
   padding-top: 15%;
   margin-top: 10%;
-  width: 50%;
+  width: 70%;
 }
 
 .intro, .intro-img {
@@ -267,7 +265,11 @@ ul li {
 
 .intro ul {
   font-size: 0.75em;
-  margin-top: 10%;
+  margin-top: 6%;
+}
+
+.intro ul li {
+  margin-bottom: 3%;
 }
 
 /* rule styles */
@@ -335,6 +337,10 @@ ul li {
 }
 
 /* ignite page styles */
+#ig-intro h1 {
+  font-size: 4em;
+}
+
 #ig-intro ul {
   margin-left: 10%;
   width: 100%;
@@ -375,14 +381,19 @@ ul li {
   width: 28.5%;
 }
 
+/* medium page styles */
+#medium-intro h1 {
+  font-size: 3.5em;
+}
+
 /* medium images */
 #medium-1 {
-  width: 25%;
+  width: 27%;
   top: 0;
   right: 0;
   margin-left: 0;
   margin-right: 0;
-  padding-right: 28%;
+  padding-right: 26%;
   margin-top: 10%;
 }
 
