@@ -322,7 +322,7 @@ img {
 }
 
 #about-intro ul .icon {
-  width: 20px;
+  width: 40px;
   padding-bottom: 10px;
   margin: 0;
   margin-right: 2%;
@@ -340,13 +340,11 @@ img {
 
 #contact li {
   margin-bottom: 1.5%;
-  width: 47%;
-  display: inline-block;
-  vertical-align: middle;
+  width: 100%;
 }
 
 #about-intro #contact li .icon {
-  width: 13%;
+  width: 40px;
   padding-right: 3%;
 }
 

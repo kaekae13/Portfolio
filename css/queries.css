@@ -564,6 +564,8 @@ ul li {
   width: 20%;
   margin-left: 0;
   line-height: 1.3em;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* about page images */
@@ -577,8 +579,9 @@ ul li {
   position: absolute;
 }
 
-#about-intro .icon {
-  width: 15px;
+
+#about-intro ul .icon {
+  width: 20px;
   margin-right: 10px;
   padding: 0;
 }
