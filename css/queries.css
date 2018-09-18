@@ -327,6 +327,8 @@ ul li {
   padding-top: 5%;
   width: 27%;
   margin-left: 0;
+  right: 0;
+  padding-right: 20%;
 }
 
 #final-des {
