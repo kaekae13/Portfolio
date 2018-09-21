@@ -575,7 +575,7 @@ ul li {
 }
 
 #contact li {
-  width: 20%;
+  width: 100%;
   margin-left: 0;
   line-height: 1.3em;
   display: inline-block;
