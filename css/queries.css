@@ -54,20 +54,20 @@ h2 {
 }
 
 h3 {
-  font-size: 0.85em;
+  font-size: 0.875em;
   line-height: 1.3em;
 }
 
 #title h3 {
-  font-size: 0.75em;
+  font-size: 0.875em;
 }
 
 h5 {
-  font-size: 0.75em;
+  font-size: 0.875em;
 }
 
 p {
-  font-size: 0.75em;
+  font-size: 0.875em;
 }
 
 /* general content */
@@ -103,13 +103,13 @@ p {
 }
 
 .overview-content p {
-  font-size: 0.70em;
+  font-size: 0.875em;
   padding-top:0;
   margin-bottom: 0;
 }
 
 .overview-content .column p, .overview-content .column h5 {
-  font-size: 0.65em;
+  font-size: 0.875em;
 }
 
 .content .column {
@@ -154,7 +154,7 @@ p {
 #nav1 {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.2em;
-  font-size: 0.3em;
+  font-size: 0.65em;
   position: fixed;
   z-index: 1;
   right: 0;
@@ -166,7 +166,7 @@ p {
 #nav2 {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.2em;
-  font-size: 0.3em;
+  font-size: 0.65em;
   position: fixed;
   left: 0;
   font-weight: bolder;
@@ -258,13 +258,12 @@ p {
 
 /* list styles */
 ul li {
-  font-size: 0.75em;
+  font-size: 0.70em;
   width: 100%;
-  line-height: 1.5em;
+  line-height: 1.4em;
 }
 
 .intro ul {
-  font-size: 0.80em;
   margin-top: 6%;
 }
 
@@ -279,6 +278,8 @@ ul li {
   width: 2em;
   height:1px;
   margin-right: 2%;
+  line-height: 1em;
+  margin-bottom: 3%;
 }
 
 .rule {
@@ -296,7 +297,7 @@ ul li {
   height: 6px;
 }
 
-.intro li, .dash {
+.intro ul li, .dash {
   display: inline-block;
   vertical-align: top;
 }
