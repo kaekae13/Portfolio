@@ -1,19 +1,6 @@
 
-/* iPad & Smaller Screens ----------- */
-@media only screen and (max-width : 767px) {
-  .lb-overlay {
-    display: none;
-  }
-
-  .graphic-identity {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-}
-
 /* iPad & Desktop ----------- */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 992px) {
 /* Styles */
 
 /* general typography */
