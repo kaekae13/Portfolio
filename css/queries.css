@@ -1,3 +1,9 @@
+/* Remove Overlay for Lightbox Gallery for Mobile Viewport */
+@media only screen and (max-width : 991px) {
+.lb-overlay {
+ display: none;
+  }
+}
 
 /* iPad & Desktop ----------- */
 @media only screen and (min-width : 992px) {
