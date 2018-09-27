@@ -53,7 +53,7 @@ body {
 }
 
 .overview-content .column p {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 /* general typography */
@@ -87,7 +87,7 @@ h1 {
 
 h2 {
   font-family:'Muli', sans-serif;
-  font-size: 1.7em;
+  font-size: 2em;
   font-weight:bold;
   line-height: 1.7em;
   margin-top: 0;
@@ -98,7 +98,7 @@ h2 {
 
 h3 {
   font-family:'Proxima Nova', sans-serif;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 700;
   line-height: 1.4em;
   letter-spacing: 0.2em;
@@ -117,7 +117,7 @@ h3 {
 h4 {
   font-family:'Proxima Nova', sans-serif;
   letter-spacing: 0.2em;
-  font-size: 1em;
+  font-size: 2em;
   color: #AAA9A9;
   font-size: 0.75em;
   display: block;
@@ -128,7 +128,7 @@ h4 {
 h5 {
   font-family: 'Robotothin', sans-serif;
   font-weight: lighter;
-  font-size: 1.5em;
+  font-size: 2em;
   letter-spacing: 0.1em;
 }
 
