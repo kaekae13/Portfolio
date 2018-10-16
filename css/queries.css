@@ -709,18 +709,26 @@ ul li {
 
 .col .lb-overlay img{
   max-width: auto;
-  max-height: 75%;
+  max-height: 80%;
   margin: 0 auto;
   top: 5%;
   justify-content: center;
-  max-width: 35%;
+  max-width: 30%;
   position: relative;
 	opacity: 0;
 	transition: opacity 0.5s linear;
 }
 
+.col .lb-overlay:target #image-3 {
+  max width: 75%;
+}
+
 .col .lb-overlay:target #image-8a {
   max-width: 55%;
+}
+
+.col .lb-overlay:target #image-9 {
+  max width: 15%;
 }
 
 .lb-overlay:target {
