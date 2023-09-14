@@ -468,6 +468,23 @@ img {
   margin-right: 5%;
 }
 
+/* pbteen */
+
+#pt-email {
+	margin: 5%;
+	width: 100%;
+}
+
+#pt-email-image {
+	list-style: none;
+  	display: inline-block;
+	width: 35%;
+	vertical-align: top;
+	margin-left: 5%;
+	margin-right: 5%;
+	box-shadow: 2px 2px 30px 2px #D8D8D8;
+}
+
 .visgif, #final-des {
   box-shadow: 2px 2px 30px 2px #D8D8D8;
 }
